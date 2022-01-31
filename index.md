@@ -1,4 +1,4 @@
-Project Description: 
+**Project Description:**
 
 I will focus on creating neural network (NNs) that is able to accurately detect breast cancer from tissue images. There are many publicly available datasets of tissue images available online. Each pixel in the tissue image will be classified as "nucleus", "boundary", or "not nucleus and not boundary". After this classification, the neural network will then create a black and white image of only the nuclei. 
 
@@ -7,7 +7,7 @@ After segmenting the nuclei, features need to be computed. I envision using feat
 The main goal of this project is to create a tool that helps doctors during their diagnoses. Doctors will be able to check their diagnoses of a patient's tissue sample. This tool will be extremely helpful in making sure that doctors do not misdiagnose a patient or even recommend treatment when no treatment is needed. 
 
 
-Project Goals
+**Project Goals:**
 1. Create a neural network that segments each pixel into nucleus, boundary, or not nucleus and not boundary.
 2. Compute various features.
 3. Train the NN to be able to detect invasive vs. benign breast cancer lesions by looking at tissue images. 

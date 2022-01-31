@@ -1,2 +1,2 @@
-Title: Accurate Detection of Breast Cancer
+Project Title: Accurate Detection of Breast Cancer
 

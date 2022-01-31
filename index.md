@@ -5,7 +5,7 @@ I will focus on creating neural network (NNs) that is able to accurately detect 
 After segmenting the nuclei, features need to be computed. I envision using features like the nuclei's shape, area, and perimter. Nuclei in tissue images of an invasive breast cancer lesion will be larger and more distorted than nuclei in normal tissue images. By computing these features, the neural network will be able to predict when a tissue image is normal or when it shows the presence of a breast cancer lesion. 
 
 Here is an example of a benign tissue image. 
-![Benign](benign.JPG)
+<img src="benign.JPG" alt="benign" width="200"/>
 
 Here is an example of an invasive tissue image.
 ![Invasive](invasive.JPG)

@@ -1,3 +1,4 @@
+<!---
 **Project Description:**
 
 I will focus on creating neural network (NNs) that is able to accurately detect breast cancer from tissue images. There are many publicly available datasets of tissue images available online. Each pixel in the tissue image will be classified as "nucleus", "boundary", or "not nucleus and not boundary". After this classification, the neural network will then create a black and white image of only the nuclei. 
@@ -17,3 +18,11 @@ The main goal of this project is to create a tool that helps doctors during thei
 1. Create a neural network that segments each pixel into nucleus, boundary, or not nucleus and not boundary.
 2. Compute various features.
 3. Train the NN to be able to detect invasive vs. benign breast cancer lesions by looking at tissue images. 
+-->
+
+Claire LeBlanc, Shaurya Pednekar, Shifa Somji
+A five to ten sentence outline
+
+You should explain your ideal/expected results for the “details” and “assessment” paragraphs.
+An ethical sweep (see below)
+You should think of this as an easy way to “build” your final write-up. Starting with the first sentence of each paragraph lets you focus on high-level details instead of the details.

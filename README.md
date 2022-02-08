@@ -1,2 +1,5 @@
-Project Title: Accurate Detection of Breast Cancer
+# Accurate Detection of Breast Cancer
+
+A project by Claire LeBlanc, Shaurya Pednekar and Shifa Somji
+
 

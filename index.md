@@ -20,7 +20,6 @@ The main goal of this project is to create a tool that helps doctors during thei
 3. Train the NN to be able to detect invasive vs. benign breast cancer lesions by looking at tissue images. 
 -->
 
-Claire LeBlanc, Shaurya Pednekar, Shifa Somji
 A five to ten sentence outline
 
 You should explain your ideal/expected results for the “details” and “assessment” paragraphs.

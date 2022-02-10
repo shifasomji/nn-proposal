@@ -41,10 +41,10 @@ This is valuable to do because it could advance cancer research by allow researc
 Currently, a manual alternative is being used, which may be more accurate, but we hope that we can train our network to be as accurate as manually labeling images. Due to variations in images, it would be difficult to create a program to classify the images without using machine learning, since there are so many different cases.
 
 3. What processes will we use to handle appeals/mistakes?
-To handle appeals/mistakes, we will try to evaluate the ethical implications at all points durinng the project.
+To handle appeals/mistakes, we will try to evaluate the ethical implications at all points durinng the project.We will also be open to changing our ideas/plans as issues arise. 
 
 4. How diverse is our team?
-We will also be open to changing our ideas/plans as issues arise. Our team is somewhat diverse, as we have people from  
+Our team is diverse in that we all come from different backgrounds and we have people from different colleges. We also lack diversity, however, as we are all a similar age, all CS majors, and all attending similar colleges in southern california. 
 
 Data Questions:
 

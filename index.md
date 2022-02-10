@@ -35,9 +35,16 @@ The main goal of this project is to create a tool that helps doctors during thei
 
 General Questions:
 1. Should we even be doing this?
-3. What might be the accuracy of a simple non-ML alternative?
-4. What processes will we use to handle appeals/mistakes?
-5. How diverse is our team?
+This is valuable to do because it could advance cancer research by allow researchers to save time by automatically classifying large amounts of data. 
+
+2. What might be the accuracy of a simple non-ML alternative?
+Currently, a manual alternative is being used, which may be more accurate, but we hope that we can train our network to be as accurate as manually labeling images. Due to variations in images, it would be difficult to create a program to classify the images without using machine learning, since there are so many different cases.
+
+3. What processes will we use to handle appeals/mistakes?
+To handle appeals/mistakes, we will try to evaluate the ethical implications at all points durinng the project.
+
+4. How diverse is our team?
+We will also be open to changing our ideas/plans as issues arise. Our team is somewhat diverse, as we have people from  
 
 Data Questions:
 

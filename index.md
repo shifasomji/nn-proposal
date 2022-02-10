@@ -31,15 +31,13 @@ The main goal of this project is to create a tool that helps doctors during thei
 
 5. Assessment paragraph: Assess your results and briefly state the broadly interesting conclusions that these results support. 
 
-**Ethical Sweep**
+**Ethical Sweep:**
 
 General Questions:
 1. Should we even be doing this?
 2. What might be the accuracy of a simple non-ML alternative?
 3. What processes will we use to handle appeals/mistakes?
 4. How diverse is our team?
-
-We think this is an important project that will help improve the accuracy of breast cancer detection from tissue images. 
 
 Data Questions:
 1. Is our data valid for its intended use?

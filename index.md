@@ -40,10 +40,24 @@ General Questions:
 4. How diverse is our team?
 
 Data Questions:
+
 1. Is our data valid for its intended use?
+
+Yes, we do plan on collecting data that is valid for our project.
+
 2. What bias could be in our data? (All data contains bias.)
+
+- All the images could be from a certain race/gender. 
+- The image resolution could be different from what is used in practice.
+
 3. How could we minimize bias in our data and model?
+
+Being aware of possible biases and consciously collecting data from various sources could help reduce bias.
+
 4. How should we “audit” our code and data?
+
+For our code, we could have unit tests. For the data, we could have criteria for accepting what data to use. For example, one of our criteria is that it represents a diverse number of races, rather than just one.
+
 
 Impact Questions:
 1. Do we expect different errors rates for different sub-groups in the data?

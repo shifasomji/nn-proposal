@@ -39,6 +39,8 @@ General Questions:
 3. What processes will we use to handle appeals/mistakes?
 4. How diverse is our team?
 
+We think this is an important project that will help improve the accuracy of breast cancer detection from tissue images. 
+
 Data Questions:
 1. Is our data valid for its intended use?
 2. What bias could be in our data? (All data contains bias.)
@@ -47,5 +49,13 @@ Data Questions:
 
 Impact Questions:
 1. Do we expect different errors rates for different sub-groups in the data?
+
+We do not expect different error rates for different sub-groups in the data. We anticipate that the neural network will perform the same for all of the sub-groups. 
+
 2. What are likely misinterpretations of the results and what can be done to prevent those misinterpretations?
+
+It might be difficult for the general public to interpret the results. Thus, it will be important to make sure that only doctors and trained pathologists can access the results and interpret them in a correct manner. 
+
 3. How might we impinge individuals' privacy and/or anonymity?
+
+To protect individuals' privacy, we will make sure to anonymize all tissue images and delete all images after the completion of the project. 

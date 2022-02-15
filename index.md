@@ -23,7 +23,7 @@ The main goal of this project is to create a tool that helps doctors during thei
 **Introduction Outline:**
 **Paragraph 1: Overview of the problem** Classifying breast cancer tissue images by hand takes a lot of time and can be inaccurate.
 
-**Paragraph 2: More Background** Cancer tissue images can look very different dependening on the image, so hopefully our neural network will be able to tease apart these differences and identify central characteristics indicative of cancer.
+**Paragraph 2: More Background** Cancer tissue images can look very different depending on the image, so hopefully our neural network will be able to classify these differences and identify central characteristics indicative of cancer.
 
 **Paragraph 3: Transition paragraph/Key insights** Many previous attempts only used a few layers, so we hope to improve on their work by using more layers for our neural network.
 
@@ -49,32 +49,28 @@ Our team is diverse in that we all come from different backgrounds and we have p
 Data Questions:
 
 1. Is our data valid for its intended use?
-
 Yes, we do plan on collecting data that is valid for our project.
 
 2. What bias could be in our data? (All data contains bias.)
-
-- All the images could be from a certain race/gender. 
-- The image resolution could be different from what is used in practice.
+All the images could be from a certain race/gender. 
+The image resolution could be different from what is used in practice.
 
 3. How could we minimize bias in our data and model?
-
 Being aware of possible biases and consciously collecting data from various sources could help reduce bias.
 
 4. How should we “audit” our code and data?
-
 For our code, we could have unit tests. For the data, we could have criteria for accepting what data to use. For example, one of our criteria is that it represents a diverse number of races, rather than just one.
 
 
 Impact Questions:
 1. Do we expect different errors rates for different sub-groups in the data?
-
 We do not expect different error rates for different sub-groups in the data. We anticipate that the neural network will perform the same for all of the sub-groups. 
 
 2. What are likely misinterpretations of the results and what can be done to prevent those misinterpretations?
-
 It might be difficult for the general public to interpret the results. Thus, it will be important to make sure that only doctors and trained pathologists can access the results and interpret them in a correct manner. 
 
 3. How might we impinge individuals' privacy and/or anonymity?
-
 To protect individuals' privacy, we will make sure to anonymize all tissue images and delete all images after the completion of the project. 
+
+**Related Works Search:**
+

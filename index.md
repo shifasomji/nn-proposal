@@ -82,3 +82,5 @@ To protect individuals' privacy, we will make sure to anonymize all tissue image
 
 1. A [paper](https://www.mdpi.com/2075-4418/11/10/1870/htm) titled *Presentation of Novel Architecture for Diagnosis and Identifying Breast Cancer Location Based on Ultrasound Images Using Machine Learning* by various researchers created a convolutional neural network to classify breast cancer using ultrasound images. They extracted features, and their main feature was the frequency of intensity points (or pixels). The model had an 88% accuracy rate. 
 
+2. Another [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177544) titled *Classification of breast cancer histology images using Convolutional Neural Networks* also uses a convolutional neural network to classify breast cancer. This paper, in contrast to the previous one, uses actual breast biopsy images instead of ultrasound images. They extracted features, mostly features about a single nucleus like its color, shape, and density. This model only had an 78% accuracy rate. 
+

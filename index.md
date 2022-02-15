@@ -21,6 +21,7 @@ The main goal of this project is to create a tool that helps doctors during thei
 -->
 
 **Introduction Outline:**
+
 Paragraph 1: Overview of the problem
 Classifying breast cancer tissue images by hand takes a lot of time and can be inaccurate.
 
@@ -78,4 +79,6 @@ It might be difficult for the general public to interpret the results. Thus, it 
 To protect individuals' privacy, we will make sure to anonymize all tissue images and delete all images after the completion of the project. 
 
 **Related Works Search:**
+
+1. A paper titled *Presentation of Novel Architecture for Diagnosis and Identifying Breast Cancer Location Based on Ultrasound Images Using Machine Learning* by various researchers created a convolutional neural network to classify breast cancer using ultrasound images. They extracted features, and their main feature was the frequency of intensity points (or pixels). The model had an 88% accuracy rate. 
 

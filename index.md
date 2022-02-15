@@ -80,5 +80,5 @@ To protect individuals' privacy, we will make sure to anonymize all tissue image
 
 **Related Works Search:**
 
-1. A paper titled *Presentation of Novel Architecture for Diagnosis and Identifying Breast Cancer Location Based on Ultrasound Images Using Machine Learning* by various researchers created a convolutional neural network to classify breast cancer using ultrasound images. They extracted features, and their main feature was the frequency of intensity points (or pixels). The model had an 88% accuracy rate. 
+1. A [paper](https://www.mdpi.com/2075-4418/11/10/1870/htm) titled *Presentation of Novel Architecture for Diagnosis and Identifying Breast Cancer Location Based on Ultrasound Images Using Machine Learning* by various researchers created a convolutional neural network to classify breast cancer using ultrasound images. They extracted features, and their main feature was the frequency of intensity points (or pixels). The model had an 88% accuracy rate. 
 

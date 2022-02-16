@@ -23,18 +23,23 @@ The main goal of this project is to create a tool that helps doctors during thei
 **Introduction Outline:**
 
 Paragraph 1: Overview of the problem
+
 Classifying breast cancer tissue images by hand takes a lot of time and can be inaccurate.
 
 Paragraph 2: More Background
+
 Cancer tissue images can look very different depending on the image, so hopefully our neural network will be able to classify these differences and identify central characteristics indicative of cancer.
 
 Paragraph 3: Transition paragraph/Key insights
+
 Many previous attempts only used a few layers, so we hope to improve on their work by using more layers for our neural network.
 
 Paragraph 4: Details paragraph
+
 Some of the challenges we forsee are time limitations in our algorithm, as well as difficulties in the size of the images.
 
 Paragraph 5: Assessment paragraph
+
 We hope our model will be able to achieve a high degree of accuracy, comparable to a human.
 
 **Ethical Sweep:**

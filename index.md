@@ -42,6 +42,8 @@ Paragraph 5: Assessment paragraph
 
 We hope our model will be able to achieve a high degree of accuracy, comparable to a human.
 
+--------------------------------------------
+
 **Ethical Sweep:**
 
 General Questions:

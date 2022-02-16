@@ -84,7 +84,8 @@ It might be difficult for the general public to interpret the results. Thus, it 
 
 3. How might we impinge individuals' privacy and/or anonymity?
 To protect individuals' privacy, we will make sure to anonymize all tissue images and delete all images after the completion of the project. 
------------------------------------
+
+--------------------------------------------
 
 **Related Works Search:**
 

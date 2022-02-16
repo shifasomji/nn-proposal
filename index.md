@@ -89,3 +89,7 @@ To protect individuals' privacy, we will make sure to anonymize all tissue image
 
 2. Another [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177544) titled *Classification of breast cancer histology images using Convolutional Neural Networks* also uses a convolutional neural network to classify breast cancer. This paper, in contrast to the previous one, uses actual breast biopsy images instead of ultrasound images. They extracted features, mostly features about a single nucleus like its color, shape, and density. This model only had an 78% accuracy rate. 
 
+3. A [blog](http://andrewjanowczyk.com/use-case-1-nuclei-segmentation/) titled *Use Case 1: Nuclei Segmentation* walks through the process of using deep learning for nuceli segmentation on H&E stained estrogen receptor positive (ER+) breast cancer images. They used Matlab to create patches for the images, bash to create a database and train the network, and then python was used to generate output images showing the probability each pixel is a nuceli. The code and dataset is provided, and they were able to achieve similar results as hand segmentation. 
+
+4. Another [blog](https://towardsdatascience.com/convolutional-neural-network-for-breast-cancer-classification-52f1213dcc9) titled *Convolutional Neural Networkfor Breast Cancer Classification* walked through the binary classification of breast cancer images as malignant or benign. It provides example code, and walks through the evaluation of model, both looking at accuuracy rate (98.3%) and precision (0.65). 
+

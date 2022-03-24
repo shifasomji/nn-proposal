@@ -38,3 +38,9 @@ A [paper](https://academic.oup.com/jnci/article/111/9/916/5307077?login=true) ti
 
 We hope to use the insights and results from these papers in our own project. 
 
+**Methods:**
+
+For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. 
+
+We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
+

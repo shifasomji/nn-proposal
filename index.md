@@ -40,11 +40,11 @@ For our software, we plan on using PyTorch. PyTorch is an open source machine le
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
-Load the image data into a numpy array using the pillow python package. Convert the numpy array into a tensor. 
+Once we have downloaded our dataset, we will load the image data into a numpy array using the pillow python package, and convert the numpy array into a tensor. 
 
-Normalize the tensors to be in the range /[-1,1/]. Create a training set and a validation set. 
+Next, we will normalize the tensors to be in the range /[-1,1/], and we will split these into a training set and a validation set. 
 
-Define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Additionally, define a loss function. 
+Then, we will define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Additionally, we will define a loss function. 
 
-Train the network, and experiment with different epochs. Test the model using the validation set. 
+Lastly, we will train the network and test the model using the validation set. 
 

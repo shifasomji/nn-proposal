@@ -42,7 +42,7 @@ We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-can
 
 Once we have downloaded our dataset, we will load the image data into a numpy array using the pillow python package, and convert the numpy array into a tensor. 
 
-Next, we will normalize the tensors to be in the range /[-1,1/], and we will split these into a training set and a validation set. 
+Next, we will normalize the tensors to be in the range [-1,1], and we will split these into a training set and a validation set. 
 
 Then, we will define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Additionally, we will define a loss function. 
 

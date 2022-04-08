@@ -24,7 +24,7 @@ The main goal of this project is to create a tool that helps doctors during thei
 
 Classifying breast cancer tissue images as cancerous or benign is an essential part of breast cancer research and diagnosis. Often, this classification is done by hand, despite the fact that classifying by hand takes a lot of time and can be inaccurate. Additionally, cancer tissue images can look very different depending on the image, furthur complicating classification efforts. These factor led us to try and develop a neural network to classify breast cancer tissue images as benign or malignant, with the hope of achieving similar accuracy to human classification (We should see if there is a stat for how accurate humans are).
 
-There are many existing approaches to this problem, which we hope to build off of. A [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177544) titled *Classification of breast cancer histology images using Convolutional Neural Networks* uses a convolutional neural network to classify breast cancer. This paper uses breast biopsy images. They extracted features, mostly features about a single nucleus like its color, shape, and density. They performed binary classification (arcinoma and non-carcinoma) which had an accuracy of 83.3%, and additionally they classified in four classes (normal tissue, benign lesion, in situ carcinoma and invasive carcinoma) which had an accuracy of 77.8%. 
+There are many existing approaches to this problem, which we hope to build off of. A [paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177544) titled *Classification of breast cancer histology images using Convolutional Neural Networks* uses a convolutional neural network to classify breast cancer. This paper uses breast biopsy images. They extracted features, mostly features about a single nucleus like its color, shape, and density. They performed binary classification (carcinoma and non-carcinoma) which had an accuracy of 83.3%, and additionally they classified in four classes (normal tissue, benign lesion, in situ carcinoma and invasive carcinoma) which had an accuracy of 77.8%. 
 
 A [paper](https://academic.oup.com/jnci/article/111/9/916/5307077?login=true) titled *Stand-Alone Artificial Intelligence for Breast Cancer Detection in Mammography: Comparison With 101 Radiologists* compared the performance of radiologists to that of an AI system in detecting breast cancer. The AI system used deep learning convolutional networks, feature classifiers, and image analysis algorithms to detect calcification and soft tissue lesions. Based on the presence of these features, the likelihood of cancer was determined. They found that the AI system performed about as well as the radiologists, although they did mention that such a system requires further investigation.
 
@@ -36,7 +36,7 @@ Some of the challenges we forsee are time limitations in our algorithm, as well 
 
 **Methods:**
 
-For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. Speicially, we will get a lot of our code from this tutorial initially: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html and then modify it to achieve the best results. 
+For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this tutorial initially: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html and then modify it to achieve the best results. 
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
@@ -50,6 +50,11 @@ Lastly, we will train the network and test the model using the validation set.
 
 **Discussion:**
 
+*Expected Results*
+
+We expect our results to be similar to those of the related papers we read. In particular, we will measure the AUC, which represents the area underneath the ROC curve. The AUC provides an aggregate measure of performance across all possible classification thresholds. AUC represents the probability that a random positive example is positioned to the right of a random negative example. A model that has a 100% accuracy rate will have an AUC of 1 and similarly, a model that has a 0% accuracy rate will have an AUC of 0. We expect our AUC to be around 0.8, which is close to the AUC value of the other related papers. 
+
+We will also measure the precision, recall, sensitivity, and accuracy of our model. Ideally, we will have high precision and accuracy, as this will signify that our model is able to predict the class type of any breast cancer tissue sample. 
 
 *Interpretation and Evaluation of our Results:*
 

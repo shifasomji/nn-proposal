@@ -48,3 +48,12 @@ Then, we will define a convolutional neural network using PyTorch's built in mod
 
 Lastly, we will train the network and test the model using the validation set. 
 
+**Discussion:**
+
+
+Interpretation and Evaluation of our Results:
+
+To evaluate our results, we can use a confusion matrix. This will tell us the accuracy, false positive rate, false negative rate, and recall. We can use these metrics to compare results with the other papers we looked at during the literature search. Using this comparison, we can then try to hypothesize about reasons for the difference, such as whether the size of the network was the dominant factor, whether it was the optimizer that was being used, or there were other reasons for the difference. 
+
+Additionally, we will aim to also split up the results by different factors if possible (such as age/race), and see if the results vary significantly between categories. This could tell us if, for example, our neural network was being trained to learn features relating to one race/age more than another.
+

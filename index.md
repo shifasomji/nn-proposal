@@ -68,3 +68,6 @@ To evaluate our results, we can use a confusion matrix. This will tell us the ac
 
 Additionally, we will aim to also split up the results by different factors if possible (such as age/race), and see if the results vary significantly between categories. This could tell us if, for example, our neural network was being trained to learn features relating to one age/race more than another.
 
+*Ethics:*
+
+

@@ -40,11 +40,11 @@ For our software, we plan on using PyTorch. PyTorch is an open source machine le
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
-Once we have downloaded our dataset, we will load the image data into a numpy array using the pillow python package, and convert the numpy array into a tensor. 
+Once we have downloaded our dataset, we will use PyTorch's [ImageFolder](https://pytorch.org/vision/main/generated/torchvision.datasets.ImageFolder.html) class which prepares a dataset that is structured in folders. In order to use this class, we had to write a separate Python script that splits all our data into a test and a train folder. We have two classes in our dataset - benign and malignant.
 
-Next, we will normalize the tensors to be in the range [-1,1], and we will split these into a training set and a validation set. 
+Next, we use PyTorch's random_split() function, as well as the [DataLoader](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader) class. This enables us to randomly split the dataset into a training set and a validation set.
 
-Then, we will define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Additionally, we will define a loss function. 
+Then, we define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Our neural network has 3 CNN blocks, where each block contains two convolution layers and one max-pooling layer. After applying the convolution, we use a flatten layer to convert the tensor from 3D to one-dimensional. 
 
 Lastly, we will train the network and test the model using the validation set. 
 
@@ -52,7 +52,13 @@ Lastly, we will train the network and test the model using the validation set.
 
 *Expected Results*
 
-We expect our results to be similar to those of the related papers we read. In particular, we will measure the AUC, which represents the area underneath the ROC curve. The AUC provides an aggregate measure of performance across all possible classification thresholds. AUC represents the probability that a random positive example is positioned to the right of a random negative example. A model that has a 100% accuracy rate will have an AUC of 1 and similarly, a model that has a 0% accuracy rate will have an AUC of 0. We expect our AUC to be around 0.8, which is close to the AUC value of the other related papers. 
+We expect our results to be similar to those of the related papers we read. In particular, we will measure the AUC, which represents the area underneath the ROC curve. An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. It usually plots two parameters - the false positive and true positive rate. If our classification model has a high accuracy, the ROC curve will have a larger area underneath the curve (AUC). The following picture contrasts a few ROC curves.
+
+<img src="ROC-curve.png" alt="roc" width="300"/>
+
+We see that as the model improves, the area underneath the curve increases as well until we reach a perfect classifier that has an AUC of 1. 
+
+The AUC provides an aggregate measure of performance across all possible classification thresholds. AUC represents the probability that a random positive example is positioned to the right of a random negative example. A model that has a 100% accuracy rate will have an AUC of 1 and similarly, a model that has a 0% accuracy rate will have an AUC of 0. We expect our AUC to be around 0.8, which is close to the AUC value of the other related papers. 
 
 We will also measure the precision, recall, sensitivity, and accuracy of our model. Ideally, we will have high precision and accuracy, as this will signify that our model is able to predict the class type of any breast cancer tissue sample. 
 

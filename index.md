@@ -72,4 +72,11 @@ Additionally, we will aim to also split up the results by different factors if p
 
 *Ethics:*
 
+There are a few ethical issues related to our project. As a patient's breast cancer tissue images are fairly personal and private information, it is important that all data used to train or test our model is immediately deleted after it is no longer needed. It is also important that patients agree to let their data be used by our model. 
+
+**Results:**
+
+**Reflection/Future Work:**
+
+
 

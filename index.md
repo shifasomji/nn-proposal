@@ -36,7 +36,7 @@ Some of the challenges we forsee are time limitations in our algorithm, as well 
 
 **Methods:**
 
-For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this tutorial initially: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html and then modify it to achieve the best results. 
+For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this [tutorial initially](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and then modify it to achieve the best results. 
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
@@ -54,7 +54,9 @@ Lastly, we will train the network and test the model using the validation set.
 
 We expect our results to be similar to those of the related papers we read. In particular, we will measure the AUC, which represents the area underneath the ROC curve. An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. It usually plots two parameters - the false positive and true positive rate. If our classification model has a high accuracy, the ROC curve will have a larger area underneath the curve (AUC). The following picture contrasts a few ROC curves.
 
-<img src="ROC-curve.png" alt="roc" width="300"/>
+<p align="center">
+<img src="ROC-curve.png" alt="roc" width="400"/>
+</p>
 
 We see that as the model improves, the area underneath the curve increases as well until we reach a perfect classifier that has an AUC of 1. 
 

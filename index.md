@@ -40,6 +40,12 @@ For our software, we plan on using PyTorch. PyTorch is an open source machine le
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
+Here is an example of a sample benign image in the dataset:
+
+<p align="center">
+<img src="label-image.PNG" alt="image" width="400"/>
+</p>
+
 Once we have downloaded our dataset, we will use PyTorch's [ImageFolder](https://pytorch.org/vision/main/generated/torchvision.datasets.ImageFolder.html) class which prepares a dataset that is structured in folders. In order to use this class, we had to write a separate Python script that splits all our data into a test and a train folder. We have two classes in our dataset - benign and malignant.
 
 Next, we use PyTorch's random_split() function, as well as the [DataLoader](https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader) class. This enables us to randomly split the dataset into a training set and a validation set.

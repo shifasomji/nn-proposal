@@ -38,7 +38,7 @@ Some of the challenges we forsee are time limitations in our algorithm, as well 
 
 For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this [tutorial initially](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and then modify it to achieve the best results. 
 
-We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our related works. This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
+We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our [related works](https://www.inf.ufpr.br/lesoliveira/download/TBME-00608-2015-R2-preprint.pdf). This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 
 Here is an example of a sample benign image in the dataset:
 
@@ -79,6 +79,18 @@ Additionally, we will aim to also split up the results by different factors if p
 *Ethics:* 
 
 **Results:**
+
+The following shows the results of testing our model by running it for ten epochs on the validation dataset.  
+
+<p align="center">
+<img src="results.PNG" alt="results" width="400"/>
+</p>
+
+Our model's highest accuracy was 0.8721, during epoch 8. 
+
+The following graph plots the accuracy vs. number of epochs. We see that the accuracy increases as more epochs run, until the accuracy eventually settles around 0.86 by the end. 
+
+The related paper that used the dataset we did achieved an accuracy range of 80 - 85%. Since our accuracy was around 87%, we think we did a good job replicating the paper's results. There is definitely room for improvement, however, as most models today have an accuracy of over 90%. 
 
 **Reflection/Future Work:**
 

@@ -90,6 +90,10 @@ Our model's highest accuracy was 0.8721, during epoch 8.
 
 The following graph plots the accuracy vs. number of epochs. We see that the accuracy increases as more epochs run, until the accuracy eventually settles around 0.86 by the end. 
 
+<p align="center">
+<img src="accuracy-graph.PNG" alt="accuracy" width="400"/>
+</p>
+
 The related paper that used the dataset we did achieved an accuracy range of 80 - 85%. Since our accuracy was around 87%, we think we did a good job replicating the paper's results. There is definitely room for improvement, however, as most models today have an accuracy of over 90%. 
 
 **Reflection/Future Work:**

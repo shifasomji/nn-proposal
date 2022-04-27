@@ -76,9 +76,7 @@ To evaluate our results, we can use a confusion matrix. This will tell us the ac
 
 Additionally, we will aim to also split up the results by different factors if possible (such as age/race), and see if the results vary significantly between categories. This could tell us if, for example, our neural network was being trained to learn features relating to one age/race more than another.
 
-*Ethics:*
-
-There are a few ethical issues related to our project. As a patient's breast cancer tissue images are fairly personal and private information, it is important that all data used to train or test our model is immediately deleted after it is no longer needed. It is also important that patients agree to let their data be used by our model. 
+*Ethics:* 
 
 **Results:**
 

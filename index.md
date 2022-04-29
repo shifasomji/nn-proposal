@@ -97,6 +97,7 @@ The following graph plots the accuracy vs. number of epochs. We see that the acc
 The related paper that used the dataset we did achieved an accuracy range of 80 - 85%. Since our accuracy was around 87%, we think we did a good job replicating the paper's results. There is definitely room for improvement, however, as most models today have an accuracy of over 90%. 
 
 **Reflection/Future Work:**
+
 The neural network did a good job of classifying the images provided - with a maximum accuracy of 87.2%. While this is a reasonably high accuracy, it is slightly lower than the accuracy obtained by the models in [this](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7312934) paper that uses the same dataset. Since the paper uses different algorithms such as One Nearest Neighbour and a Random Forests, it would be interesting to experiment with the architecture of the neural network we implemented and see if we can implement a neural network that reaches (and outperforms) the accuracy of these other algorithms. 
 
 Also, the dataset contained images of multiple magnification levels, and the paper referenced above trained and tested their algorithms individually for each magnification level. For simplicity, we decided to combine all the different magnification levels rather than train and test based on the magnification levels. In the future, separating the training and testing data based on the magnification level and training our neural network on each magnification level individually might lead to higher accuracy. 

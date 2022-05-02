@@ -90,6 +90,8 @@ Additionally, we will aim to also split up the results by different factors if p
 
 **Results:**
 
+Our model is a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Our neural network has 3 CNN blocks, where each block contains two convolution layers and one max-pooling layer. After applying the convolution, we use a flatten layer to convert the tensor from 3D to one-dimensional. We used a learning rate of 0.001 and the Adam optimizer as our hyperparameters. 
+
 The following shows the results of testing our model by running it for ten epochs on the validation dataset.  
 
 <p align="center">

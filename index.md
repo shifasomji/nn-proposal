@@ -47,7 +47,7 @@ Almost all AI applications raise some ethical issues, but using AI in a health s
 
 **Methods:**
 
-For our software, we plan on using PyTorch. PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this [tutorial initially](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and then modify it to achieve the best results. 
+For our software, we plan on using [PyTorch](https://pytorch.org/). PyTorch is an open source machine learning library and we will easily be able to learn how to use PyTorch. In particular, we will get a lot of our code from this [tutorial initially](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and then modify it to achieve the best results. 
 
 We plan on using [this dataset](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/), which we found from one of our [related works](https://www.inf.ufpr.br/lesoliveira/download/TBME-00608-2015-R2-preprint.pdf). This dataset has 8,000 images, of which 2,500 are benign and 5,500 are malignant. All of these images have dimensions of 700 x 460 pixels. Each image is a 3 channel RGB picture in PNG format. 
 

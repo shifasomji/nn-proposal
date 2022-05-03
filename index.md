@@ -2,6 +2,8 @@
 
 <!-- include summary of intro, methods, results, and conclusions  -->
 
+
+
 **Introduction:**
 
 Classifying breast cancer tissue images as cancerous or benign is an essential part of breast cancer research and diagnosis. Often, this classification is done by hand, despite the fact that classifying by hand takes a lot of time and can be inaccurate. Additionally, cancer tissue images can look very different depending on the image, furthur complicating classification efforts. These factor led us to try and develop a neural network to classify breast cancer tissue images as benign or malignant, with the hope of achieving similar accuracy to human classification. One [study](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30003-0/fulltext) evaluated the accuracy of 12 radiologists in diagnosing breast cancer and found that they had an accuracy of around 77%. 
@@ -46,7 +48,8 @@ Next, we use PyTorch's random_split() function, as well as the [DataLoader](http
 Then, we define a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Our neural network has 3 CNN blocks, where each block contains two convolution layers and one max-pooling layer. After applying the convolution, we use a flatten layer to convert the tensor from 3D to one-dimensional. 
 
 Lastly, we will train the network and test the model using the validation set. 
-<!---
+
+<!--
 **Discussion:**
 
 *Expected Results*
@@ -68,11 +71,11 @@ We will also measure the precision, recall, sensitivity, and accuracy of our mod
 To evaluate our results, we can use a confusion matrix. This will tell us the accuracy, false positive rate, false negative rate, and recall. We can use these metrics to compare results with the other papers we looked at during the literature search. Using this comparison, we can then try to hypothesize about reasons for the difference, such as whether the size of the network was the dominant factor, whether it was the optimizer that was being used, or if there were other reasons for the difference. 
 
 Additionally, we will aim to also split up the results by different factors if possible (such as age/race), and see if the results vary significantly between categories. This could tell us if, for example, our neural network was being trained to learn features relating to one age/race more than another.
---->
+-->
 
 **Results:**
 
-Our model is a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Our neural network has 3 CNN blocks, where each block contains two convolution layers and one max-pooling layer. After applying the convolution, we use a flatten layer to convert the tensor from 3D to one-dimensional. We used a learning rate of 0.001 and the Adam optimizer as our hyperparameters. 
+Our model is a convolutional neural network using PyTorch's built in model that takes 3 channel images (3 initial inputs). Our neural network has 3 CNN blocks, where each block contains two convolution layers and one max-pooling layer. After applying the convolution, we use a flatten layer to convert the tensor from 3D to one-dimensional. We used a learning rate of 0.001 and the Adam optimizer as our hyperparameters. Our batch size is 128, and from the results of the random_split(), the length of the training dataset is 5909 samples and the length of the validation dataset is 2000 samples. 
 
 The following shows the results of testing our model by running it for ten epochs on the validation dataset.  
 

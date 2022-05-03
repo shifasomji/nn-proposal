@@ -93,6 +93,12 @@ The following graph plots the accuracy vs. number of epochs. We see that the acc
 
 The related paper that used the dataset we did achieved an accuracy range of 80 - 85%. Since our accuracy was around 87%, we think we did a good job replicating the paper's results. There is definitely room for improvement, however, as most models today have an accuracy of over 90%. 
 
+We can compare our model's predicted class of an image with the actual class as well, as another way of testing the strength of our model. The following picture shows an example image, with the predicted class of benign given by the model, followed by the image's actual class of benign. 
+
+<p align="center">
+<img src="predicted-actual.PNG" alt="pred" width="600"/>
+</p>
+
 **Reflection/Future Work:**
 
 The neural network did a good job of classifying the images provided - with a maximum accuracy of 87.2%. While this is a reasonably high accuracy, it is slightly lower than the accuracy obtained by the models in [this](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7312934) paper that uses the same dataset. Since the paper uses different algorithms such as One Nearest Neighbour and a Random Forests, it would be interesting to experiment with the architecture of the neural network we implemented and see if we can implement a neural network that reaches (and outperforms) the accuracy of these other algorithms. 

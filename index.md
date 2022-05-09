@@ -1,7 +1,7 @@
 **Abstract:**
 
 <!-- include summary of intro, methods, results, and conclusions  -->
-Calcification of breast cancer tissue images is a tedious and time consuming manual process. There has been a lot of recent work in automating this process by leveraging computational methods. In this paper, we chose a convolutional neural network to classify the tissue images as either benign or malignant. We use a publicly available BreakHis dataset of about 8000 colored labeled images for this project. For our implementation, we use Python’s PyTorch library, and we chose to incorporate an Adam optimizer while performing a train-validation split of 5909 images for training and 2000 images for validation.  Using our convolutional neural network, we achieved an accuracy of 87.2%. This result was on par with other research papers in the field.  
+Classification of breast cancer tissue images is a tedious and time consuming manual process. There has been a lot of recent work in automating this process by leveraging computational methods. In this paper, we chose a convolutional neural network to classify the tissue images as either benign or malignant. We use a publicly available BreakHis dataset of about 8000 colored labeled images for this project. For our implementation, we use Python’s PyTorch library, and we chose to incorporate an Adam optimizer while performing a train-validation split of 5909 images for training and 2000 images for validation.  Using our convolutional neural network, we achieved an accuracy of 87.2%. This result was on par with other research papers in the field.  
 
 
 **Introduction:**

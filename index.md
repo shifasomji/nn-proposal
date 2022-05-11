@@ -109,4 +109,6 @@ Additionally, in one of the early preprocessing steps, we resize each of the ima
 
 Furthermore, our model uses the Adam optimizer. We leave it to future work to experiment with different optimizers and perform hyperparameter tuning to see how this impacts the accuracy obtained by the model. Additionally, we only ran our model for ten epochs (and did not observe much overfitting). It would be valuable to run our model for an order of magnitude higher number of epochs and see whether this leads to a higher accuracy or if it leads to overfitting of the data.
 
+**Video:**
 
+We created a video summarizing this project as well, which can be found [here](https://app.vidgrid.com/view/fQn4FfeubGWy/?sr=wDVeVXE9kfPm). We hope you enjoy!
